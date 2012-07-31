@@ -14,10 +14,3 @@ function replaceStylesheet(){
 
 }
 
-add_action('shutdown','pie_get_plugin_data');
-function pie_get_plugin_data(){
-$active_plugins = get_plugins();
-var_dump($active_plugins);
-
-}
-
